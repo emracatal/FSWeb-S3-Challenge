@@ -105,6 +105,8 @@ nav,
 section {
   display: block;
 }
+
+
 body {
   line-height: 1;
 }
@@ -130,6 +132,11 @@ table {
 
 * {
   box-sizing: border-box;
+
+}
+
+*{
+  border: 1px solid green;
 }
 
 html {
@@ -201,7 +208,7 @@ padding-top: 1rem;
 
 .menu{
   display: flex;
-  justify-content: space-evenly;
+  text-align: center;
 }
 
 /* header section */
@@ -318,17 +325,19 @@ header {
 .contacts {
   width: 25%;
 }
-
+label {
+  color: white
+}
 /* footer section */
 footer {
-  width: 100%;
   height: 15vh;
+  width:100%;
   padding-top: 2.5vh;
   font-size: 3rem;
   display: flex;
- flex-direction: column;
-  background-color: green;
-  height: 25rem;
+  background-color: black;
+
+
 }
 
 .form{
@@ -386,8 +395,6 @@ footer {
 
   /* footer section */
   footer {
-    height: auto;
-    padding-top: 2.5vh;
-    font-size: 2rem;
+   
   }
 }
